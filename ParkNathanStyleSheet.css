@@ -1,0 +1,28 @@
+body {
+    background-color: #b4e6ad;
+}
+    
+h1 {
+    color: #f03c1d;
+    text-align: center;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+span.boldtext {
+    font-weight: bold;
+
+}
+span.italictext {
+    font-style: italic;
+
+}
+
+img{
+
+    height:auto;
+    max-width: 95%;
+     
+}
