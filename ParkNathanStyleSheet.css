@@ -26,3 +26,31 @@ img{
     max-width: 95%;
      
 }
+.calendar table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.calendar td, .calendar th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.calendar .has-event {
+    background-color: lightblue; /* Style days with events */
+}
+
+.calendar .has-event::after {
+    content: attr(data-schedule); /* Display schedule on hover */
+    display: none;
+    position: absolute;
+    background-color: #333;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.calendar .has-event:hover::after {
+    display: block;
+}
