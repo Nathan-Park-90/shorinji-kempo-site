@@ -82,4 +82,25 @@ img{
     background-color: #04AA6D;
     color: white;
   }
+
+  table {
+    width: 100%;
+    background-color: #3e3686;
+  }
+
+  th, td, table {
+    border: 1px solid #f05050;
+    border-collapse: collapse;
+    
+  }
+  th, td {
+    padding: 12px;
+    text-align: center;
+    color: white;
+
+  }
+th {
+    vertical-align: middle;
+  }
+
   
